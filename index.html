@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/user-check.svg"type="image/x-icon"/>
+    <title>Eder AJ</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Eder AJ</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Inicio</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">Sobre mi</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Proyectos</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contacto</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn">
+            Descarga mi CV <i class="uil uil-file-alt"></i>
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>  
+      </nav>
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- Inicio ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Eder Avalos Juarez</span>
+            </div>
+            <div class="featured-name">
+              <p>Soy <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Soy una persona apasionada de la tecnología y la computación, he participado en diversos proyectos académicos y personales, donde he desarrollado habilidades tanto en Frontend como en Backend.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <button class="btn blue-btn" onclick="window.location.href='#contact';">Contactame</button>
+              <button class="btn">
+                Descarga mi CV <i class="uil uil-file-alt"></i>
+              </button>
+            </div>
+            <div class="social_icons">
+              <div class="icon">
+                <a href="https://www.linkedin.com/in/eder-avalos-juarez-352891278/" target="_blank" rel="noopener noreferrer">
+                  <i class="uil uil-linkedin-alt"></i>
+                </a>
+              </div>
+              <div class="icon">
+                <a href="https://github.com/ederaj30" target="_blank" rel="noopener noreferrer">
+                  <i class="uil uil-github-alt"></i>
+                </a>
+              </div>              
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="img/Eder.jpg" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p></p>
+            </a>
+          </div>
+        </section>
+        <!-- -------------- Sobre mi---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>Sobre mi</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>Eder Avalos Juarez</h3>
+                <p>Soy muy apasionado por el desarrollo. Estudio Ingeniería en Computación en la UNAM FES Aragón y tengo experiencia en desarrollo web y aplicaciones de escritorio. Cuento con certificaciones en Oracle Java Foundations y Database Foundations, que respaldan mis conocimientos en la ingeniera de software.
+                <div class="about-btn">
+                  <button class="btn">
+                    Download CV <i class="uil uil-import"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Frontend</h3>
+                </div>
+                <div class="skills-list">
+                  <i class="devicon-html5-plain colored"></i>    
+                  <i class="devicon-css3-plain colored"></i>
+                  <i class="devicon-javascript-plain colored"></i>  
+                  <i class="devicon-react-original colored"></i>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Backend</h3>
+                </div>
+                <div class="skills-list">
+                  <i class="devicon-nodejs-plain-wordmark colored"></i>                  
+                  <i class="devicon-express-original-wordmark"></i>
+                  <i class="devicon-java-plain-wordmark colored"></i>
+                  <i class="devicon-spring-original-wordmark colored"></i>
+                  <i class="devicon-django-plain-wordmark colored"></i>      
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Database</h3>
+                </div>
+                <div class="skills-list">
+                  <i class="devicon-mysql-plain-wordmark colored"></i>
+                  <i class="devicon-mariadb-original-wordmark colored"></i>
+                  <i class="devicon-postgresql-plain-wordmark colored"></i>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>otros</h3>
+                </div>
+                <div class="skills-list">
+                <i class="devicon-git-plain-wordmark colored"></i>
+                <i class="devicon-docker-plain-wordmark colored"></i>    
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- PROYECTOS --------------- -->
+
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Proyectos</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+              <h3>Gestion de tienda de libros</h3>
+              <label>Sistema de gestion de inventario</label>
+              <br>
+              <button onclick="window.open('https://github.com/Erick-Baco/tienda_libros', '_blank')" class="btn blue-btn" >Ver repositorio</button>
+            </div>
+            <div class="project-box">
+              <h3>Videojuego</h3>
+              <label>Juego tipo SpaceInvader</label>
+              <br>
+              <button onclick="window.open('https://github.com/EderAJ30/PROYECTOFINALPOO', '_blank')" class="btn blue-btn" onclick="window.location.href='';">Ver repositorio</button>
+            </div>
+            <div class="project-box">
+              <h3>Tienda de juegos</h3>
+              <label>Carrito de compras y gestion</label>
+              <br>
+              <button onclick="window.open('https://github.com/EderAJ30/app_videojuegos', '_blank')" class="btn blue-btn" onclick="window.location.href='';">Ver repositorio</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- CONTACTO  ---------------- -->
+
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Contactame aqui</h1>
+            <span>:)</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Encuentrame <i class="uil uil-corner-right-down"></i></h2>
+                <p><i class="uil uil-envelope"></i> Correo: ederaj30@gmail.com</p>
+                <p><i class="uil uil-phone"></i> Telefono: +52 5559782747</p>
+              </div>
+            </div>
+            <div class="col">
+                <form class="contact-form">
+                  <div class="form-control">
+                    <div class="form-inputs">
+                      <input type="text" class="input-field" name="name" placeholder="Nombre" required />
+                      <input type="email" class="input-field" name="email" placeholder="Correo" required />
+                    </div>
+                    <div class="text-area">
+                      <textarea name="message" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <div class="form-button">
+                      <button class="btn" type="submit">
+                        Enviar <i class="uil uil-message"></i>
+                      </button>
+                  </div>
+                </form>
+              </div>
+          </div>
+        </section>
+        <div class="contact-form-loader none">Enviando...</div>
+          <div class="contact-form-response none">
+            <h3>Tu mensaje ha sido enviado con éxito</h3>
+          </div>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Eder Avalos Juarez .</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Inicio</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">Sobre mi</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Proyectos</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon"><i class="uil uil-instagram"></i></div>
+          <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+          <div class="icon"><i class="uil uil-dribbble"></i></div>
+          <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none">Eder Avalos Juarez</a> - Todo
+            derechos reservados
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
